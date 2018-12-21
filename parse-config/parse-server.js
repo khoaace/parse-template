@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 //===========================[ PARSE OPTIONS - MAIN]===================
 const parseServerOption = {
-    databaseURI: process.env.DATABASE_URI || 'mongodb://localhost:27017/Yourstore',
+    databaseURI: process.env.DATABASE_URI || 'mongodb://admin:React2018@ds113871.mlab.com:13871/acetest',
     cloud: process.env.CLOUD_CODE_MAIN || './cloud/main.js',
     appId: process.env.APP_ID || 'localAppId0123456789',
     masterKey: process.env.MASTER_KEY || 'localMasterKey0123456789',
