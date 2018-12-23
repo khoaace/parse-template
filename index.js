@@ -15,7 +15,7 @@ const parseDashboardOption = require('./parse-config/parse-dashboard');
 var parseDashboard = new ParseDashboard(parseDashboardOption);
 app.use('/dashboard', parseDashboard);
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 1337;
 app.listen(port, function() {
   console.log('eshop running on port ' + port + '.');
 });

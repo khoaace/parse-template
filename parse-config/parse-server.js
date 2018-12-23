@@ -7,9 +7,8 @@ const parseServerOption = {
     cloud: process.env.CLOUD_CODE_MAIN || './cloud/main.js',
     appId: process.env.APP_ID || 'localAppId0123456789',
     masterKey: process.env.MASTER_KEY || 'localMasterKey0123456789',
-    serverURL: process.env.SERVER_URL || 'http://localhost:3000/api',
+    serverURL: process.env.SERVER_URL || 'http://localhost:1337/api',
     maxUploadSize: process.env.PARSE_SERVER_MAX_UPLOAD_SIZE || '10mb',
-
     javascriptKey: process.env.PARSE_SERVER_JAVASCRIPT_KEY || 'js-SDK-Key-0123456789',
     restAPIKey: process.env.PARSE_SERVER_REST_API_KEY || 'rest-API-Key-0123456789',
     clientKey: process.env.PARSE_SERVER_CLIENT_KEY || 'client-SDK-Key-0123456789' //  Key for iOS, MacOS, tvOS clients

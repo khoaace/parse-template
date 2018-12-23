@@ -6,7 +6,7 @@ const parseDashboardOption = {
     mountPath: process.env.DASHBOARD_MOUNT || '/dashboard',
     apps: [
         {
-            serverURL: process.env.serverURL || 'http://localhost:3000/api',
+            serverURL: process.env.serverURL || 'http://localhost:1337/api',
             appId: parseServerOptions.appId,
             masterKey: parseServerOptions.masterKey,
             javascriptKey: parseServerOptions.javascriptKey,
